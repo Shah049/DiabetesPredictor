@@ -1,8 +1,8 @@
-Early Diabetes Prediction System
+# Early Diabetes Prediction System
 
 This is a Streamlit-based web application for predicting diabetes risk using machine learning models (Logistic Regression and XGBoost). The app includes user authentication, exploratory data analysis (EDA), model evaluation, and real-world health insights based on predictions.
 
-Features
+# Features
 
 
 
@@ -38,7 +38,7 @@ SHAP Analysis: Feature importance visualization for XGBoost model.
 
 ROC Curve: Display ROC curve for model performance.
 
-Prerequisites
+# Prerequisites
 
 
 
@@ -58,7 +58,7 @@ Streamlit Cloud account (for deployment)
 
 GitHub account
 
-Installation
+# Installation
 
 
 
@@ -78,7 +78,7 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 
 
 
-Install dependencies:
+# Install dependencies:
 
 pip install -r requirements.txt
 
@@ -98,7 +98,7 @@ streamlit run app.py
 
 The app will be available at http://localhost:8501.
 
-Deployment
+# Deployment
 
 Deploy to Streamlit Cloud
 
@@ -124,7 +124,7 @@ Ensure requirements.txt is in the repository root.
 
 Deploy the app. Streamlit Cloud will handle dependency installation and hosting.
 
-Deploy to GitHub
+# Deploy to GitHub
 
 Use the following Git commands to initialize, commit, and push the project to GitHub:
 
